@@ -1195,7 +1195,7 @@ li.slick-active {
             margin: 0 20px 0 20px;
         }
 
-        .footer__items:last-child {
+        .footer__items {
             margin: 0 20px 0 20px;
         }
 
@@ -1206,8 +1206,27 @@ li.slick-active {
 
     }
 
+    @media screen and (max-width: 375px) {
+        .footer__items {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            width: 100%;
+        }
+
+        .footer__item {
+            margin: 0 10px 0 10px;
+        }
+
+        .footer__item a {
+            font-size: 10px;
+        }
+    }
+
     @media screen and (max-width: 350px) {
         .menu {
             right: 25px;
         }
     }
+
