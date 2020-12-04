@@ -85,9 +85,6 @@ h6 {
 /* Section
 ===================== */
 
-section {
-    padding: 0 40px;
-}
 
 .section__title {
     margin: 0 0 60px 0;
@@ -465,7 +462,7 @@ section {
 }
 
 .download-texts {
-    margin: 0 70px 0 70px;
+    margin: 0 auto;
 
     position: relative;
 }
@@ -657,6 +654,9 @@ button.slick-arrow.slick-next {
 
 li.slick-active {
     opacity: 1;
+}
+
+.slick-track {
 }
 
 /* About us
@@ -1197,6 +1197,10 @@ li.slick-active {
 
         .footer__items:last-child {
             margin: 0 20px 0 20px;
+        }
+
+        .services__item {
+            padding: 0;
         }
 
 
